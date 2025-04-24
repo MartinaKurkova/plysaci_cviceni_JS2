@@ -13,3 +13,29 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+}
+
+.plushies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.plushy {
+  flex: 1;
+}
+
+.plushy__image {
+ width: 300px;
+ height: auto;
+}
+
+.plushy__name {
+  text-align: center;
+}
+
